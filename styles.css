@@ -1,0 +1,19 @@
+.container{
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid black;
+}
+label, input, select {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+button {
+    margin-top: 20px;
+}

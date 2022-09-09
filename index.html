@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert Currency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div>
+        <form action="#">
+            <label for="amount_in">Amount</label>
+            <input type="number" id="amount_in" name="amount">
+            <label for="from">From Currency</label>
+            <select name="from_currency" id="from">
+                <option value="">--Select currency--</option>
+                <option value="usd">USD</option>
+                <option value="vnd">VND</option>
+                <option value="jpy">JPY</option>
+                <option value="eur">EUR</option>
+            </select>
+            <label for="to">To Currency</label>
+            <select name="to_currency" id="to">
+                <option value="">--Select currency--</option>
+                <option value="usd">USD</option>
+                <option value="vnd">VND</option>
+                <option value="jpy">JPY</option>
+                <option value="eur">EUR</option>
+            </select>
+        </form>
+    </div>
+    <button type="button" onclick="convert_currency()">Convert</button>
+    <p id="result">Result: ...</p>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
